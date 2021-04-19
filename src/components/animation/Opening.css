@@ -1,0 +1,29 @@
+.mdi-arrow-right:before{
+    content: "/F054";
+}
+.OpeningText{
+    font-family: 'Nunito', sans-serif;
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #fff;
+    font-size: 45px;
+    line-height: 1.5;
+}
+.viewWorkBtn{
+    font-size: 25px;
+    width: fit-content;
+    cursor: pointer;
+    padding: 1%;
+    margin-left: 17%;
+    margin-top: 2%;
+    border: 2px solid #fff; 
+}
+.viewWorkBtn:hover{
+    background-color: #00c5cc;
+    color: white;
+}
+.arrowRight{
+    padding-top: 0%;
+}

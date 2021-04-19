@@ -1,0 +1,15 @@
+.navlink{
+    margin: 2%;
+    color: #fff;
+    text-decoration: none;
+}
+.navlink:hover{
+    color: #C84065;
+}
+.navbarWrapper{
+    font-size: 20px;
+    position: sticky;
+    font-family: 'Nunito', sans-serif;
+    padding: 2%;
+    background-color: #1A252F
+}

@@ -1,0 +1,48 @@
+.contactWrapper{
+    background-color: #242935;
+}
+.heading{
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.1ch;
+    font-size: 45px;
+}
+.question{
+    color: #2CBCC8;
+    text-align: center;
+}
+.underlineBold{
+    height: 1vh;
+    width: 8%;
+    margin: 1% auto;
+    background-color: white;
+}
+.form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form > input, .form > textarea{
+    background-color: #1F242D;
+    color: #fff;
+    height: 5vh;
+    font-size: 20px;
+}
+.form > textarea{
+    height: 25vh;
+}
+.form > input[type="submit"]{
+    border: 2px solid #fff;
+    margin: 2%;
+    width: 20%;
+    padding: 2%;
+    cursor: pointer;
+    position: relative;
+    left: 78%;
+}
+.form > input[type="submit"]:hover{
+    color: #fff;
+    background-color: #2CBCC8;
+}
