@@ -1,5 +1,5 @@
 .contactWrapper{
-    background-color: #242935;
+    background-color: #252835;
 }
 .heading{
     text-align: center;
@@ -28,7 +28,13 @@
     background-color: #1F242D;
     color: #fff;
     height: 5vh;
+    margin: 3px;
+    padding: 1%;
     font-size: 20px;
+    border: none;
+}
+.form > input, .form > textarea:focus{
+    outline: none;
 }
 .form > textarea{
     height: 25vh;
@@ -37,7 +43,8 @@
     border: 2px solid #fff;
     margin: 2%;
     width: 20%;
-    padding: 2%;
+    padding: 1%;
+    height: 8vh;
     cursor: pointer;
     position: relative;
     left: 78%;

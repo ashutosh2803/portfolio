@@ -1,5 +1,4 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from 'react';
 import { TsParticles } from './TsParticles';
 import "./Opening.css";
 import {VscArrowRight} from "react-icons/vsc"
