@@ -51,5 +51,6 @@
 }
 .form > input[type="submit"]:hover{
     color: #fff;
+    transition: 0.3s;
     background-color: #2CBCC8;
 }

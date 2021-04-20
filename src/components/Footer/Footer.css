@@ -17,11 +17,12 @@
 }
 .scrollUpBtn:hover{
     opacity: 0.8;
+    transition: 0.3s;
 }
 .footerWrapper{
     margin-top: 10%;
     height: fit-content;
-    background-color: "#1B252E"
+    background-color: "#1B252E";
 }
 .footerLogos{
     display: flex;
@@ -38,4 +39,5 @@
 }
 .footerLogos > div:hover{
     background-color: #33C2C8;
+    transition: 0.3s;
 }

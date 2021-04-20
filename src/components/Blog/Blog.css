@@ -1,0 +1,16 @@
+.heading1{
+    text-align: center;
+    font-weight: 400;
+    color: #454648;
+    letter-spacing: 0.1ch;
+    font-size: 45px;
+}
+.blogWrapper{
+    background-color: #fff;
+}
+.underlineBold1{
+    height: 1vh;
+    width: 6%;
+    margin: 1% auto;
+    background-color: #454648;
+}

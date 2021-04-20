@@ -19,7 +19,7 @@ const Footer = () => {
                     <div><GrMedium/></div>
                     <div><FaQuora/></div>
                 </div>
-                <div className="copyright">ASHUTOSH KUMAR <span style={{ color: "#66294E" }}>&copy;2021</span></div>
+                <div className="copyright">ASHUTOSH KUMAR <span style={{ color: "#E5496E" }}>&copy;2021</span></div>
             </div>
         </>
     )
