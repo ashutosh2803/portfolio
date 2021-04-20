@@ -1,4 +1,5 @@
 import './App.css';
+import { About } from './components/About/About';
 import { Opening } from './components/animation/Opening';
 import { Blog } from './components/Blog/Blog';
 import { Footer } from './components/Footer/Footer';
@@ -9,6 +10,7 @@ function App() {
     <div className="contactWrapper">
       <Opening />
       <Navbar />
+      <About/>
       <Blog/>
       <Footer/>
     </div>

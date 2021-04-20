@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Blog.css";
+import { BlogCard } from './BlogCard';
 
 const data = [
     {
@@ -15,7 +16,7 @@ const data = [
     {
         imgUrl: "https://user-images.githubusercontent.com/40117155/111150810-911aeb00-85b4-11eb-95a5-63b0661b7e15.png",
         title: "Building the Hindu website Clone using React",
-        description: " The Hindu website clone was part of the 5 days Build Week along with 3 of my teammates.  In this blog, i would like to share with you how we came up with the project and implemented it from scratch with my fellow colleagues."
+        description: "In this blog, i would like to share with you how we came up with the project and implemented it from scratch along with 3 of my teammates."
     }
 ]
 
@@ -24,9 +25,9 @@ const Blog = () => {
         <div className="blogWrapper">
             <div className="heading1">BLOG</div>
             <div className="underlineBold1"></div>
-            <div>
+            <div style={{display: "flex", flexDirection: "row", margin: "1%"}}>
                 {
-                    data
+                    data.map(item => <BlogCard {...item} key={item.title}/>)
                 }
             </div>
         </div>

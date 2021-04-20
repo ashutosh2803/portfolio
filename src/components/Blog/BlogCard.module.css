@@ -1,0 +1,23 @@
+.blogCardWrapper{
+    /* border: 1px solid black; */
+    margin: 1%;
+    padding: 1%;
+    width: fit-content;
+    cursor: pointer;
+}
+.title{
+    color: #517188;
+    font-weight: bold;
+    font-size: 30px;
+    width: 80%;
+    line-height: 1.5;
+}
+.description{
+    width: 80%;
+    font-weight: 350;
+    color: #92658D;
+    line-height: 1.5;
+}
+.img{
+    width: 100%;
+}
