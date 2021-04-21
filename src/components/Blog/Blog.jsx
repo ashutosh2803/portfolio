@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Blog.css";
+import styles from "./Blog.module.css";
 import { BlogCard } from './BlogCard';
 
 const data = [
@@ -22,9 +22,9 @@ const data = [
 
 const Blog = () => {
     return (
-        <div className="blogWrapper">
-            <div className="heading1">BLOG</div>
-            <div className="underlineBold1"></div>
+        <div className={styles.blogWrapper}>
+            <div className={styles.heading1}>BLOG</div>
+            <div className={styles.underlineBold1}></div>
             <div style={{display: "flex", flexDirection: "row", margin: "1%"}}>
                 {
                     data.map(item => <BlogCard {...item} key={item.title}/>)

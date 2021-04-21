@@ -1,6 +1,6 @@
 import React from 'react'
 import { Contact } from '../Contact/Contact';
-import "./Footer.css";
+import styles from "./Footer.module.css";
 import { FaAngleDoubleUp } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GrGithub } from "react-icons/gr";
@@ -11,9 +11,9 @@ const Footer = () => {
     return (
         <>
             <Contact />
-            <div className="scrollUpBtn"><FaAngleDoubleUp/></div>   
-            <div className="footerWrapper">
-                <div className="footerLogos">
+            <div className={styles.scrollUpBtn}><FaAngleDoubleUp/></div>   
+            <div className={styles.footerWrapper}>
+                <div className={styles.footerLogos}>
                     <div><GrLinkedinOption /></div>
                     <div><GrGithub/></div>
                     <div><GrMedium/></div>

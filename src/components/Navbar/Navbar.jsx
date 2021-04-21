@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 
 const links = [
     {
@@ -27,9 +27,9 @@ const links = [
 
 const Navbar = () => {
     return (
-        <div className="navbarWrapper">
+        <div className={styles.navbarWrapper}>
             {
-                links.map(link => <NavLink className="navlink" to={link.to} activeStyle={{color: "#C84065"}}>{link.title}</NavLink> )
+                links.map(link => <NavLink className={styles.navlink} to={link.to} activeStyle={{color: "#C84065"}}>{link.title}</NavLink> )
             }
         </div>
     )

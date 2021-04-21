@@ -48,20 +48,25 @@ const About = () => {
                 <p className={styles.heading1}>My Proficiency</p>
                 <p className={styles.underlineBold1}></p>
                 <div className={styles.proficiencyImgWrapper}>
+                    <div>
+                        <img src="https://aayushah711.github.io/resources/proficiencies/react.png" alt="proficiency_logo" />
+                        <p>React Apps</p>
+                        <p>React, Redux, Hooks API, React Router DOM, Material UI</p>
+                    </div>
                     <div style={{marginBottom: "6%"}}>
-                        <img src="https://santhisrikh.github.io/images/react.png" alt="proficiency_logo" />
+                        <img src="https://aayushah711.github.io/resources/proficiencies/frontend.png" alt="proficiency_logo" />
                         <p>Front End</p>
-                        <p>Javascript, React-Redux</p>
+                        <p>HTML, CSS, Javascript, Bootstrap</p>
                     </div>
                     <div>
-                        <img src="https://santhisrikh.github.io/images/back.png" alt="proficiency_logo" />
+                        <img src="https://aayushah711.github.io/resources/proficiencies/backend.png" alt="proficiency_logo" />
                         <p>Back End</p>
-                        <p>NodeJs, ExpressJs, MongoDB</p>
+                        <p>Node, Express, MongoDB</p>
                     </div>
                     <div style={{marginBottom: "6%"}}>
                         <img src="https://santhisrikh.github.io/images/data.png" alt="proficiency_logo" />
                         <p>Data Structures</p>
-                        <p>Arrays,Stacks and Queues,Algorithms</p>
+                        <p>Arrays,Stacks and Queues, Linked Lists, Algorithms</p>
                     </div>
                 </div>
             </div>
