@@ -1,4 +1,5 @@
 .heading1{
+    margin-top: 3%;
     text-align: center;
     font-weight: 400;
     color: #454648;
@@ -56,6 +57,7 @@
 .myResumeBtn:hover{
     background-color: #34A095;
     color: #fff;
+    transition: ease-in 0.3s;
 }
 .aboutOption > button:focus{
     outline: none;

@@ -1,4 +1,6 @@
 .contactWrapper{
+    padding-top: 3%;
+    text-align: center;
     background-color: #252835;
 }
 .heading{
@@ -53,4 +55,30 @@
     color: #fff;
     transition: 0.3s;
     background-color: #2CBCC8;
+}
+.copyright{
+    color: #3F5D66;
+    text-align: center;
+}
+.footerWrapper{
+    padding-bottom: 2%;
+    height: fit-content;
+    background-color: #1B252E;
+}
+.footerLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4%;
+}
+.footerLogos > div{
+    background-color: #272F39;
+    color: white;
+    padding: 1%;
+    font-size: 25px;
+    margin: 1%;
+}
+.footerLogos > div:hover{
+    background-color: #33C2C8;
+    transition: 0.3s;
 }

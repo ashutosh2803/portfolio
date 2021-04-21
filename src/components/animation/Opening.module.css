@@ -12,6 +12,9 @@
     line-height: 1.5;
 }
 .viewWorkBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 25px;
     width: fit-content;
     cursor: pointer;
@@ -24,6 +27,7 @@
     background-color: #00c5cc;
     color: white;
 }
-.arrowRight{
-    padding-top: 0%;
+.arrowLeft{
+    margin-top: 20%;
+    font-size: 35px;
 }

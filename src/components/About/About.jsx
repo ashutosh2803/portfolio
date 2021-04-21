@@ -5,7 +5,10 @@ import { GrLinkedinOption } from "react-icons/gr";
 import { GrGithub } from "react-icons/gr";
 
 const About = () => {
-
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '__blank', 'noopener, norefferer')
+        if (newWindow) newWindow.opener = null;
+    }
     return (
         <div className={styles.aboutWrapper}>
             <div className={styles.heading1}>ABOUT</div>
@@ -16,10 +19,10 @@ const About = () => {
                     <p>Full Stack Developer</p>
                     <p>A passionate aspiring Full Stack Developer skilled in MERN stack,<br /> moulded and shaped by Masai School's numerous trainings.Actively<br /> ready to join in great living team of a good start-up to adapt me in any<br /> situation and environment with ease and perform the best.</p>
                     <div className={styles.aboutOption}>
-                        <GrLinkedinOption className={styles.option} />
-                        <GrGithub className={styles.option}/>
-                        <FaHackerrank className={styles.option}/>
-                        <button className={styles.myResumeBtn}>My Resume</button>
+                        <GrLinkedinOption onClick={() => openInNewTab('https://www.linkedin.com/in/ashutoshkumar2803/')} className={styles.option} />
+                        <GrGithub onClick={() => openInNewTab('https://github.com/ashutosh2803')} className={styles.option}/>
+                        <FaHackerrank onClick={() => openInNewTab('https://www.hackerrank.com/ashutosh2803')} className={styles.option}/>
+                        <button onClick={() => openInNewTab('https://drive.google.com/file/d/1BZLk19KTAanVs7EPJj8ekuM0tafB62wM/view?usp=sharing')} className={styles.myResumeBtn}>My Resume</button>
                     </div>
                     <div>
                         <p>Patna, India <strong>+91 8578062955</strong> || <strong>ashuisalive@gmail.com</strong></p>
@@ -96,7 +99,7 @@ const About = () => {
                 <p className={styles.heading1}>Github</p>
                 <p className={styles.underlineBold1}></p>
                 <div className={styles.calendarWrapper}>
-                    <div className={styles.calendarHeading}>@ashutosh2803 on Github</div>
+                    <div  onClick={() => openInNewTab('https://github.com/ashutosh2803')} className={styles.calendarHeading}>@ashutosh2803 on Github</div>
                     <div className={styles.calendar}>
                         <img src="Contributions.png" alt="contributions_pic" />
                     </div>

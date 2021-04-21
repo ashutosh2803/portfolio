@@ -3,24 +3,7 @@
     text-align: center;
     padding: 1%;
 }
-.scrollUpBtn{
-    position: absolute;
-    left: 48%;
-    color: #fff;
-    width: fit-content;
-    height: fit-content;
-    font-size: 40px;
-    padding: 1%;
-    margin: auto;
-    cursor: pointer;
-    background-color: #E5496E;
-}
-.scrollUpBtn:hover{
-    opacity: 0.8;
-    transition: 0.3s;
-}
 .footerWrapper{
-    margin-top: 10%;
     height: fit-content;
     background-color: #1B252E;
 }
