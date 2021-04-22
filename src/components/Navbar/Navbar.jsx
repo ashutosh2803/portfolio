@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <div id="navbar" className={styles.navbarWrapper}>
             {
-                links.map(link => <div className={styles.navlink}><Link to={link.to} smooth={true} activeClass="active" activeStyle={{color: "#C84065"}}>{link.title}</Link></div> )
+                links.map(link => <div className={styles.navlink}><Link to={link.to} smooth={true} duration={300} activeClass="active" activeStyle={{color: "#C84065"}}>{link.title}</Link></div> )
             }
         </div>
     )

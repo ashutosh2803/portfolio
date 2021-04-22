@@ -95,7 +95,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.githubWrapper}>
+            <div>
                 <p className={styles.heading1}>Github</p>
                 <p className={styles.underlineBold1}></p>
                 <div className={styles.calendarWrapper}>

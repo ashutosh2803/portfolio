@@ -36,7 +36,7 @@ const data = [
 
 const Projects = () => {
     return (
-        <div id="blogs" className={styles.blogWrapper}>
+        <div className={styles.blogWrapper}>
             <div className={styles.heading1}>PROJECTS</div>
             <div className={styles.underlineBold1}></div>
             <div className={styles.blogCardWrapper}>
