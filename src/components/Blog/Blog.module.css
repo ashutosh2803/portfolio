@@ -8,9 +8,30 @@
 .blogWrapper{
     background-color: #fff;
 }
+.blogCardWrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 1%
+}
 .underlineBold1{
     height: 1vh;
     width: 6%;
     margin: 1% auto;
     background-color: #454648;
 }
+
+
+@media (max-width: 576px) {  
+    .blogCardWrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1%
+    }
+}
+ 
+@media (max-width: 768px) {  }
+
+@media (max-width: 992px) {  }
+
+@media (max-width: 1200px) {  } 

@@ -6,11 +6,38 @@
 }
 .navlink:hover{
     color: #C84065;
+    transition: ease-in 0.3s;
 }
 .navbarWrapper{
     font-size: 20px;
     position: sticky;
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Nunito', sans-serif;
-    padding: 2%;
+    /* padding: 1%; */
     background-color: #1A252F
 }
+
+@media (max-width: 576px) {
+    .navbarWrapper{
+        font-size: 20px;
+        position: sticky;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: 'Nunito', sans-serif;
+        padding: 2%;
+        background-color: #1A252F
+    }   
+}
+/*  
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {  }  */

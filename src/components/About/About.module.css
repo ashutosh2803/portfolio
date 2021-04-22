@@ -12,6 +12,7 @@
 .aboutContentWrapper{
     margin: 1%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 .aboutContent > p:nth-of-type(1){
@@ -36,6 +37,7 @@
 .aboutOption{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     /* justify-content: center; */
     align-items: center;
     padding: 2%;
@@ -77,8 +79,6 @@
     border-radius: 50%;
     border: 10px solid #454648;
 }
-
-
 .techStackImgWrapper{
     display: flex;
     justify-content: center;
@@ -119,6 +119,7 @@
 }
 .completedWrapper{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -161,3 +162,55 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (max-width: 576px) {
+    .calendar > img{
+        width: 100%;
+    }
+    .calendarWrapper{
+        width: 50%;
+        margin: 1% auto;
+        border: 1px solid #DCDCDD;
+    }
+    .calendarHeading{
+        text-align: center;
+        font-weight: 400;
+        color: #454648;
+        letter-spacing: 0.1ch;
+        font-size: 20px;
+        cursor: pointer;
+    }   
+    .proficiencyImgWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    } 
+    .proficiencyImgWrapper > div > p:nth-of-type(2){
+        font-weight: 400;
+        color: #454648;
+        letter-spacing: 0.1ch;
+        font-size: 12px;
+    }
+    .aboutOption{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 2%;
+    }
+ }
+ 
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  } 

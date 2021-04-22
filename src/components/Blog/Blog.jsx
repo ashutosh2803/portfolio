@@ -28,7 +28,7 @@ const Blog = () => {
         <div id="blogs" className={styles.blogWrapper}>
             <div className={styles.heading1}>BLOGS</div>
             <div className={styles.underlineBold1}></div>
-            <div style={{display: "flex", flexDirection: "row", margin: "1%"}}>
+            <div className={styles.blogCardWrapper}>
                 {
                     data.map(item => <BlogCard {...item} key={item.title}/>)
                 }

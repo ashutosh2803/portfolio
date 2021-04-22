@@ -8,7 +8,7 @@ const Opening = () => {
         <>
             <div id="home" className={styles.OpeningText}>
                 <div>Hello, I'm <span style={{color: "#E5496E"}}>Ashutosh Kumar</span>.<br />I'm a full-stack web developer.</div>
-                <Link to="about" smooth={true} activeClass="active">
+                <Link to="navbar" smooth={true} activeClass="active">
                 <div className={styles.viewWorkBtn}>
                     <div>View my work</div>
                     <div><VscArrowDown className={styles.arrowLeft} /></div>
