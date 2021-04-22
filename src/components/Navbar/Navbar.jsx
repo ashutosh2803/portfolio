@@ -1,26 +1,26 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 import styles from "./Navbar.module.css";
+import { Link } from "react-scroll";
 
 const links = [
     {
-        to: "/",
+        to: "home",
         title: "HOME"
     },
     {
-        to: "/about",
+        to: "about",
         title: "ABOUT"
     },
     {
-        to: "/portfolio",
+        to: "portfolio",
         title: "PORTFOLIO"
     },
     {
-        to: "/blogs",
+        to: "blogs",
         title: "BLOGS"
     },
     {
-        to: "/contact",
+        to: "contact",
         title: "CONTACT"
     }
 ]
@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <div className={styles.navbarWrapper}>
             {
-                links.map(link => <NavLink className={styles.navlink} to={link.to} activeStyle={{color: "#C84065"}}>{link.title}</NavLink> )
+                links.map(link => <Link className={styles.navlink} to={link.to} smooth={true} activeClass="active" activeStyle={{color: "#C84065"}}>{link.title}</Link> )
             }
         </div>
     )

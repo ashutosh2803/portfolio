@@ -25,8 +25,8 @@ const data = [
 
 const Blog = () => {
     return (
-        <div className={styles.blogWrapper}>
-            <div className={styles.heading1}>BLOG</div>
+        <div id="blogs" className={styles.blogWrapper}>
+            <div className={styles.heading1}>BLOGS</div>
             <div className={styles.underlineBold1}></div>
             <div style={{display: "flex", flexDirection: "row", margin: "1%"}}>
                 {

@@ -11,7 +11,7 @@ const About = () => {
     }
     return (
         <div className={styles.aboutWrapper}>
-            <div className={styles.heading1}>ABOUT</div>
+            <div id="about" className={styles.heading1}>ABOUT</div>
             <div className={styles.underlineBold1}></div>
             <div className={styles.aboutContentWrapper}>
                 <div className={styles.aboutContent}>
@@ -32,7 +32,7 @@ const About = () => {
                     <img className={styles.profileImg}  src="https://avatars.githubusercontent.com/u/40117155?v=4" alt="profile_pic"/>
                 </div>
             </div>
-            <div className={styles.techStackWrapper}>
+            <div id="portfolio" className={styles.techStackWrapper}>
                 <p className={styles.heading1}>Tech Stack</p>
                 <p className={styles.underlineBold1}></p>
                 <div className={styles.techStackImgWrapper}>

@@ -4,21 +4,32 @@ import { GrLinkedinOption } from "react-icons/gr";
 import { GrGithub } from "react-icons/gr";
 import { GrMedium } from "react-icons/gr";
 import { FaHackerrank } from "react-icons/fa";
+import * as emailjs from "emailjs-com";
 
 const Contact = () => {
     const openInNewTab = (url) => {
         const newWindow = window.open(url, '__blank', 'noopener, norefferer')
         if (newWindow) newWindow.opener = null;
     }
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_ovgt282', 'template_pav36pl', e.target, 'user_VC8tqJxTj2fk0geJdAXfi')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      }
     return (
-        <div className={styles.contactWrapper}>
+        <div id="contact" className={styles.contactWrapper}>
             <div className={styles.heading}>CONTACT</div>
             <div className={styles.underlineBold}></div>
             <p className={styles.question}>Have a question or want to work together?</p>
-            <form className={styles.form}>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Enter email" />
-                <textarea placeholder="Your Message" />
+            <form onSubmit={sendEmail} className={styles.form}>
+                <input name="user_name" type="text" placeholder="Name" />
+                <input name="user_email" type="email" placeholder="Enter email" />
+                <textarea name="message" placeholder="Your Message" />
                 <input type="submit" value="SUBMIT" />
             </form>
             <div className={styles.footerWrapper}>
