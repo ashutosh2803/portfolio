@@ -44,7 +44,7 @@
 .form > input[type="submit"]{
     border: 2px solid #fff;
     margin: 2%;
-    width: fit-content;
+    width: 20%;
     padding: 1%;
     height: 8vh;
     cursor: pointer;

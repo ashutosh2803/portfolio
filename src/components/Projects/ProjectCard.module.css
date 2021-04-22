@@ -1,0 +1,53 @@
+.blogCardWrapper{
+    border-left: 1px solid #252835;
+    border-bottom: 5px solid #252835;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    width: fit-content;
+}
+.title{
+    color: #517188;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+}
+.description{
+    width: 80%;
+    font-weight: 350;
+    color: #92658D;
+    line-height: 1.5;
+}
+.img{
+    width: 100%;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btns > button{
+    margin-left: 5%;
+    padding: 2%;
+    font-weight: 250;
+    font-size: 20px;
+    border: 1px solid #454648;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns > button:hover{
+    background-color: #34A095;
+    color: #fff;
+    transition: ease-in 0.3s;
+}
+.techStack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.techStack > img{
+    width: 12%;
+    margin: 2% 5%;
+}

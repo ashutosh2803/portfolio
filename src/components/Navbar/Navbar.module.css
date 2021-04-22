@@ -6,7 +6,7 @@
 }
 .navlink:hover{
     color: #C84065;
-    transition: ease-in 0.3s;
+    transition: ease-in 0.2s;
 }
 .navbarWrapper{
     font-size: 20px;
